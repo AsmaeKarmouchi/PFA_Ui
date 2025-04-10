@@ -118,3 +118,5 @@ elif section == "⚙️ Paramètres":
             st.dataframe(config_df)
         except Exception as e:
             st.error(f"Erreur lors de la lecture du fichier de configuration : {e}")
+
+#streamlit run app.py
